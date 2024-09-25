@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <script src="dist/index.js" type="module"></script>
+    <title>Favorite Song Playlist</title>
+    <style>
+        body {
+            font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+            font-size: 14px;
+        }
+
+        #playlist {
+            padding-left: 15px;
+        }
+    </style>
+</head>
+<body>
+<form id="new-playlist-form">
+    <div id="new-playlist-input-container">
+        <input type="text" placeholder="Song Title" id="new-playlist-song-title">&nbsp;
+        <input type="text" placeholder="Song Artist" id="new-playlist-song-artist">&nbsp;
+        <button type="submit">Add</button>
+    </div>
+</form>
+<h1>My Favorite Song Playlist</h1>
+<ol id="playlist"></ol>
+</body>
+</html>
